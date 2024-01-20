@@ -3,7 +3,7 @@ echo "venv 만들거나 activie"
 python -m  venv venv
 source venv/bin/activate
 echo "requirement 설치"
-pip install fiftyone ftfy image Pillow fiftyone-db-ubuntu2204 torch torchvision
+pip install fiftyone ftfy image Pillow fiftyone-db-ubuntu2204 torch torchvision scikit-learn
 echo "FiftyOne AI 실행"
 python FiftyOne\ AI.py
 echo "정크 파일 제거는 알아서 하셈"
